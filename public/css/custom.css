@@ -1,0 +1,49 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #b3dced;
+    background: -moz-linear-gradient(left, #b3dced 0%, #72c6e0 42%, #bce0ee 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, #b3dced), color-stop(42%, #72c6e0), color-stop(100%, #bce0ee));
+    background: -webkit-linear-gradient(left, #b3dced 0%, #72c6e0 42%, #bce0ee 100%);
+    background: -o-linear-gradient(left, #b3dced 0%, #72c6e0 42%, #bce0ee 100%);
+    background: -ms-linear-gradient(left, #b3dced 0%, #72c6e0 42%, #bce0ee 100%);
+    background: linear-gradient(to right, #b3dced 0%, #72c6e0 42%, #bce0ee 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee', GradientType=1 );
+}
+::-webkit-input-placeholder {
+    text-align: center;
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+    text-align: center;  
+ }
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+    text-align: center;  
+ }
+ 
+ :-ms-input-placeholder {  
+    text-align: center; 
+ }
+.form-group{
+    margin-top: 0.5em;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.form-row{
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.btn-group{
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.mx-auto{
+    margin-top: 3em;
+}
