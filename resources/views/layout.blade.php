@@ -42,7 +42,7 @@
 
                 <div class="form-group col-sm-7">
                     <label>Razón Social*</label>
-                    <input type="text" class="form-control" placeholder="ejemplo: Merlos Infor S.l.">
+                    <input type="text" class="form-control" placeholder="ejemplo: Merlos Infor S.l." required>
                 </div>
 
                 <div class="form-group col-md-7">
